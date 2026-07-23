@@ -1,22 +1,63 @@
 aid: adialante
 name: Adialante
-description: Adialante is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Adialante is a medical imaging startup redesigning MRI from the ground up with
+  new physics, algorithms, and hardware to make cancer screening accessible and
+  affordable. Rather than selling multi-million-dollar equipment, Adialante
+  deploys compact, mobile, diagnostic-grade MRI units to clinics on a flat
+  per-scan fee, letting clinics collect insurance reimbursement and keep the
+  margin. Its full-body scanner is roughly 80% lighter and uses about 60% less
+  power than a traditional MRI. The company is starting with pre-biopsy prostate
+  imaging for urology practices, with breast, orthopedic, brain, and whole-body
+  screening on the roadmap. Founded in 2023 and part of Y Combinator's Spring
+  2026 batch, Adialante is backed by more than $3M in grants including NSF SBIR
+  Phase II funding.
 url: https://raw.githubusercontent.com/api-evangelist/adialante/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://adialante.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: 'true'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Medical Imaging
+- MRI
+- Cancer Screening
+- Healthcare
+- Diagnostics
+- Medical Devices
 apis: []
+common:
+- type: Website
+  url: https://adialante.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/adialante/
+- type: About
+  url: https://www.ycombinator.com/companies/adialante
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
